@@ -500,7 +500,7 @@ rv.pcor = function(cors, a, b, set=NULL) {
 #' Wrapper function to determine significance in the PC algorithm
 #'
 #' This function is a wrapper function around rv.pval(), such that it
-#' can easily be used with pc() from the pcalg package.
+#' can easily be used with pc() from the pcalg package. If you have trouble installing the pcalg package, have a look at our vignette 'A quick start to iTOP'.
 #'
 #' @param a Either an index or a string to identify dataset a.
 #' @param b Either an index or a string to identify dataset b.

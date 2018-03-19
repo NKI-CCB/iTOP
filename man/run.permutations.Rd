@@ -4,7 +4,7 @@
 \alias{run.permutations}
 \title{Permutations for significance testing}
 \usage{
-run.permutations(config_matrices, nperm)
+run.permutations(config_matrices, nperm = 1000)
 }
 \arguments{
 \item{config_matrices}{The result from compute.config.matrices().}

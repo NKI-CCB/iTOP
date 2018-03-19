@@ -21,8 +21,8 @@ If set consists of multiple datasets, then provide a vector of indices or a vect
 The p-value.
 }
 \description{
-This function is a wrapper function around rv.pcal(), such that it
-can easily be used with pc() from the pcalg package.
+This function is a wrapper function around rv.pval(), such that it
+can easily be used with pc() from the pcalg package. If you have trouble installing the pcalg package, have a look at our vignette 'A quick start to iTOP'.
 }
 \examples{
 set.seed(2)

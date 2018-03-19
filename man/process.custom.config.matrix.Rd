@@ -23,7 +23,8 @@ The function can perform two tasks: centering and preparation for the modified R
 \details{
 The RV coefficient often results in values very close to one when both datasets are not centered around zero, even for orthogonal data.
 For inner product similarity and Jaccard similarity, we recommend using centering. However, for some other similarity measures, centering
-may not be beneficial (for example, because the measure itself is already centered, such as in the case of Pearson correlation).
+may not be beneficial (for example, because the measure itself is already centered, such as in the case of Pearson correlation). For more information on
+centering of binary (and other non-continuous) data, for which we used kernel centering of the configuration matrix, we refer to our manuscript: Aben et al., 2018.
 
 The modified RV coefficient was proposed for high-dimensional data, as the regular RV coefficient would result in values close to one even for
 orthogonal data. We recommend always using the modified RV coefficient.

@@ -25,13 +25,14 @@ A list of n configuration matrices, where n is the number of datasets.
 \description{
 Given a list of n data matrices (corresponding to n datasets), this function computes the configuration matrix for each of these
 configuration matrices. By default inner product similarity is used, but other similarity (such as Jaccard similarity for binary data)
-can also be used (see the vignette for more information). In addition, the configuration matrices can be centered and prepared for use with
+can also be used (see the vignette 'A quick introduction to iTOP' for more information). In addition, the configuration matrices can be centered and prepared for use with
 the modified RV coefficient, both of which we will briefly explain here.
 }
 \details{
 The RV coefficient often results in values very close to one when both datasets are not centered around zero, even for orthogonal data.
 For inner product similarity and Jaccard similarity, we recommend using centering. However, for some other similarity measures, centering
-may not be beneficial (for example, because the measure itself is already centered, such as in the case of Pearson correlation).
+may not be beneficial (for example, because the measure itself is already centered, such as in the case of Pearson correlation). For more information on
+centering of binary (and other non-continuous) data, for which we used kernel centering of the configuration matrix, we refer to our manuscript: Aben et al., 2018.
 
 The modified RV coefficient was proposed for high-dimensional data, as the regular RV coefficient would result in values close to one even for
 orthogonal data. We recommend always using the modified RV coefficient.
