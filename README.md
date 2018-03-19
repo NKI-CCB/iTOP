@@ -4,5 +4,5 @@ iTOP is the R package accompanying our publication on the inference of topologie
 The R package can be installed within R using:
 ```r
 library(devtools)
-install_github("CCB/iTOP")
+install_github("NKI-CCB/iTOP")
 ```
