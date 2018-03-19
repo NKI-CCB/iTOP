@@ -18,7 +18,7 @@ If set consists of one dataset, then provide an index or a string to identify se
 If set consists of multiple datasets, then provide a vector of indices or a vector of strings.}
 }
 \value{
-The (partial) RV coeffcient.
+The (partial) RV coefficient.
 }
 \description{
 Determines the RV coefficient RV(a, b) or the partial RV coefficient

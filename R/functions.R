@@ -464,7 +464,7 @@ run.bootstraps = function(config_matrices, nboots=1000) {
 #' @param set Optional parameter to define the datasets that need to be partialized for.
 #' If set consists of one dataset, then provide an index or a string to identify set.
 #' If set consists of multiple datasets, then provide a vector of indices or a vector of strings.
-#' @return The (partial) RV coeffcient.
+#' @return The (partial) RV coefficient.
 #' @examples
 #' set.seed(2)
 #' n = 100
