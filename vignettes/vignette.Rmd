@@ -74,7 +74,7 @@ rv.conf.interval(cors_boot, "x3", "x4", c("x1","x2"))
 ### Inferring a topology of interactions between datasets
 Of course, the number of possible partial matrix correlations to consider is very large. To summarize all of these, we can use the PC algorithm to construct a topology of interactions between datasets. In this example, the algorithm was even able to infer the causality between the datasets!
 
-If you haven't already installed the pcalg package, you can use the following code to do so (as sometimes installing dependencies from Bioconductor seems to fail for this package). On some Linux systems, also additional libraries needed to be installed, such as
+If you haven't already installed the pcalg package, you can use the following code to do so (as sometimes installing dependencies from Bioconductor seems to fail for this package). On some Linux systems, we also needed to install some additional libraries, such as
 
 * sudo apt-get install libv8-3.14-dev
 * sudo apt-get install libgmp3-dev
