@@ -1,5 +1,5 @@
 # iTOP
-iTOP is the R package accompanying our publication on the inference of topologies of relationships between datasets, such as multi-omics and phenotypic data recorded on the same samples (Aben et al., 2018, in preparation). We based this methodology on the RV coefficient, a measure of matrix correlation, which we have extended for partial matrix correlations and binary data.
+iTOP is the R package accompanying our publication on the inference of topologies of relationships between datasets, such as multi-omics and phenotypic data recorded on the same samples (Aben et al., 2018, doi.org/10.1101/293993). We based this methodology on the RV coefficient, a measure of matrix correlation, which we have extended for partial matrix correlations and binary data.
 
 The R package is available on [CRAN](https://cran.r-project.org/web/packages/iTOP/index.html). It can be installed within R using:
 ```r

@@ -98,7 +98,7 @@ jaccard = function(x,y) {
 #' The RV coefficient often results in values very close to one when both datasets are not centered around zero, even for orthogonal data.
 #' For inner product similarity and Jaccard similarity, we recommend using centering. However, for some other similarity measures, centering
 #' may not be beneficial (for example, because the measure itself is already centered, such as in the case of Pearson correlation). For more information on
-#' centering of binary (and other non-continuous) data, for which we used kernel centering of the configuration matrix, we refer to our manuscript: Aben et al., 2018.
+#' centering of binary (and other non-continuous) data, for which we used kernel centering of the configuration matrix, we refer to our manuscript: Aben et al., 2018, doi.org/10.1101/293993.
 #'
 #' The modified RV coefficient was proposed for high-dimensional data, as the regular RV coefficient would result in values close to one even for
 #' orthogonal data. We recommend always using the modified RV coefficient.
@@ -197,7 +197,7 @@ compute.config.matrix = function(x, similarity_fun=inner.product, center=TRUE, m
 #' The RV coefficient often results in values very close to one when both datasets are not centered around zero, even for orthogonal data.
 #' For inner product similarity and Jaccard similarity, we recommend using centering. However, for some other similarity measures, centering
 #' may not be beneficial (for example, because the measure itself is already centered, such as in the case of Pearson correlation). For more information on
-#' centering of binary (and other non-continuous) data, for which we used kernel centering of the configuration matrix, we refer to our manuscript: Aben et al., 2018.
+#' centering of binary (and other non-continuous) data, for which we used kernel centering of the configuration matrix, we refer to our manuscript: Aben et al., 2018, doi.org/10.1101/293993.
 #'
 #' The modified RV coefficient was proposed for high-dimensional data, as the regular RV coefficient would result in values close to one even for
 #' orthogonal data. We recommend always using the modified RV coefficient.
