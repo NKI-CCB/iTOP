@@ -93,7 +93,8 @@ install.packages("pcalg")
 ```{r, message=F}
 library(pcalg)
 suffStat = list(cors=cors, cors_perm=cors_perm)
-pc.fit = pc(suffStat=suffStat, indepTest=rv.link.significance, labels=names(data), alpha=0.05, conservative=T, solve.confl=T)
+pc.fit = pc(suffStat=suffStat, indepTest=rv.link.significance, 
+            labels=names(data), alpha=0.05, conservative=T, solve.confl=T)
 plot(pc.fit, main="")
 ```
 
@@ -139,6 +140,7 @@ Once the configuration matrices have been computed, all other tools from the pac
 cors = rv.cor.matrix(config_matrices)
 cors_perm = run.permutations(config_matrices, nperm=1000)
 suffStat = list(cors=cors, cors_perm=cors_perm)
-pc.fit = pc(suffStat=suffStat, indepTest=rv.link.significance, labels=names(data), alpha=0.05, conservative=T, solve.confl=T)
+pc.fit = pc(suffStat=suffStat, indepTest=rv.link.significance, 
+            labels=names(data), alpha=0.05, conservative=T, solve.confl=T)
 plot(pc.fit, main="")
 ```
