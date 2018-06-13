@@ -26,7 +26,7 @@ intersect.samples = function(data) {
   }
   ind = Reduce(intersect, lapply(data, rownames))
   for(i in 1:length(data)) {
-    data[[i]] = data[[i]][ind,]
+    data[[i]] = data[[i]][ind,,drop=F]
   }
   return(data)
 }
