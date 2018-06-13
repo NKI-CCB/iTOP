@@ -131,7 +131,8 @@ Alternatively, if it is hard to represent the configuration matrix as a function
 ```{r, eval=F}
 # this code block is not evaluated
 config_matrices = compute.config.matrices(data)
-config_matrices$x1 = process.custom.config.matrix(my.config.matrix.for.x1, center=T, mod.rv=T)
+config_matrices$x1 = process.custom.config.matrix(my.config.matrix.for.x1, 
+                                                  center=T, mod.rv=T)
 ```
 
 ### Using the data type specific configuration matrices
